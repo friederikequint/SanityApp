@@ -2,7 +2,7 @@
  # SanityApp – UI-First Development Plan
  
  ## 0. Guardrails (from PRD)
- - **Platform**: iOS (iPhone only), iOS 15+, supports rotation
+ - **Platform**: iOS (iPhone only), iOS 16+, supports rotation
  - **User model**: single-user, no login
  - **Data**: local-only, offline-first, no external APIs, no cloud sync
  - **Scope**: mood logging (1/day) + optional note, calendar visualization; no extras unless requested
@@ -12,6 +12,7 @@
  ---
  
  ## 1. UI Foundations (build the look & navigation first)
+ - **Status**: Complete
  ### 1.1 App shell & navigation
  - **Define app navigation structure**
    - Decide primary root: single “Year Overview” as home
