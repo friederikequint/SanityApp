@@ -2,11 +2,12 @@
  # SanityApp – UI-First Development Plan
  
  ## 0. Guardrails (from PRD)
- - **Platform**: iOS (iPhone only), iOS 15+, portrait
+ - **Platform**: iOS (iPhone only), iOS 15+, supports rotation
  - **User model**: single-user, no login
  - **Data**: local-only, offline-first, no external APIs, no cloud sync
  - **Scope**: mood logging (1/day) + optional note, calendar visualization; no extras unless requested
  - **Years**: starts 2026, auto-roll, supported until 2030; year range configurable in code
+ - **Status**: Complete
  
  ---
  
