@@ -19,8 +19,8 @@
 - **Global styling**
   - Typography scale and spacing system
   - Light visual language (calm, structured, easy to scan)
-  - CHANGED: Pastel background with gentle color flow
-  - CHANGED: App title header shows the new icon next to "SanityApp" | Complete
+  - CHANGED: Pastel background with gentle color flow (slightly stronger)
+  - CHANGED: App title header shows the new icon next to "SanityApp" (slightly larger) | Complete
   - CHANGED: App icon updated to the provided icon | Complete
   - Reusable components for cards, headers, separators
  
@@ -48,6 +48,8 @@
   - Each month as compact grid
   - Ensure day number always visible in each cell
   - CHANGED: Show December 2025 preview when current date is in 2025 (before 2026)
+  - CHANGED: Show weekday headers above each month grid (Mo, Tue, Wed, Thu, Fri, Sat, Sun) | Complete
+  - CHANGED: Month day grids are left-aligned within each month panel | Complete
 - **Day cell visual states (UI placeholders first)**
   - Answered: mood color fill
   - Missed & locked: gray
@@ -85,6 +87,7 @@
 - **Constraints**
   - Exactly one mood selected
   - Once saved, mood cannot be changed
+  - CHANGED: Provide an explicit in-notice "here" affordance that reverts (deletes) today’s saved answer if it was a mistake
  
 ### 3.2 Local storage
 - Choose persistence mechanism (e.g., Core Data / file / SQLite)
@@ -154,6 +157,8 @@
 - Ensure export works offline and does not require external APIs
 
 CHANGED: Provide export actions for CSV and JSON from the Calendar screen.
+
+CHANGED: Export uses the system file exporter to save/share files reliably.
 
 - **Status**: Complete
  
