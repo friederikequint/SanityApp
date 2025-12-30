@@ -54,26 +54,21 @@
   - Answered: mood color fill | Complete
   - Missed & locked: gray
   - Future day: neutral/white
-- **Interaction**
-  - Tapping a day opens Day Detail
-  - Ensure scrolling/performance feel good (optimize later if needed)
+
  
 ### 2.2 Day Detail (read-only display + entry surface)
-- **Detail copy + layout**
-  - Title text: “On that day, your mood was …”
-  - Show mood label
-  - Show timestamp (date + time)
-  - Show optional note if present
 - **Entry surface (UI behavior first)**
   - Mood selector component
   - Optional note input
-  - CHANGED: Keyboard can be dismissed via Done button and tapping outside the text field
+  - CHANGED: Keyboard can be dismissed via tapping outside the text field
   - Save action + disabled states (wire logic later)
  
 ### 2.3 Pre-window informational pop-up (UI)
 - Implement small informational pop-up UI:
-  - “There is still some time until you can answer 😉”
+  - “There is still some time until you can answer 😉” | Complete
 - Decide presentation (toast/snackbar/alert-like)
+
+- **Status**: Complete
  
 ---
  
@@ -105,15 +100,15 @@
  
 ## 4. Time & Availability Logic (wire rules into the UI)
 ### 4.1 Answer window
-- Allow answering only between 18:00 and 23:59 (device timezone)
-- Ensure behavior adapts when timezone changes (travel)
+- Allow answering only between 18:00 and 23:59 (device timezone) | Complete
+- Ensure behavior adapts when timezone changes (travel) | Complete
  
 ### 4.2 Behavior before 18:00
-- Disable mood options
-- Show informational pop-up when user attempts interaction
+- Disable mood options | Complete
+- Show informational pop-up when user attempts interaction | Complete
  
 ### 4.3 Behavior after 23:59
-- Lock standard answering
+- Lock standard answering | Complete
 - If unanswered, mark as “missed” state
  
 ### 4.4 Missed-day grace period
