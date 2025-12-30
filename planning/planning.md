@@ -111,13 +111,7 @@
 - Lock standard answering | Complete
 - If unanswered, mark as “missed” state
  
-### 4.4 Missed-day grace period
-- Allow filling missed days up to 48 hours after window end
-- After grace period:
-  - Permanently locked
-  - Display gray in calendar
-  - Disallow mood/note
- 
+
 ---
  
 ## 5. Year Range Support
@@ -125,21 +119,26 @@
 - Default supported range:
   - Start: 2026
   - End: 2030
+- CHANGED: Show next year automatically every December (in device timezone) so the user can preview the upcoming year | Complete
 - Ensure Year Overview can switch/scroll across supported years
+
+- **Status**: Complete
  
 ---
  
 ## 6. Notifications (local reminders)
 ### 6.1 Permission & settings
-- Add reminders setting: on/off only
-- Request notification permission at appropriate moment
+- Add reminders setting: on/off only | Complete
+- Request notification permission at appropriate moment | Complete
  
 ### 6.2 Scheduling
 - Schedule two local notifications per day:
   - 18:00
   - 23:30
-- Ensure schedules adapt to timezone changes
-- Ensure toggling reminders on/off updates scheduled notifications
+- Ensure schedules adapt to timezone changes | Complete
+- Ensure toggling reminders on/off updates scheduled notifications | Complete
+
+- **Status**: Complete
  
 ---
  
