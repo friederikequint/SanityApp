@@ -47,11 +47,11 @@
   - 12 months shown on one screen
   - Each month as compact grid
   - Ensure day number always visible in each cell
-  - CHANGED: Show December 2025 preview when current date is in 2025 (before 2026)
+  - CHANGED: Show December 2025 preview when current date is in 2025 (before 2026) | Complete
   - CHANGED: Show weekday headers above each month grid (Mo, Tue, Wed, Thu, Fri, Sat, Sun) | Complete
   - CHANGED: Month day grids are left-aligned within each month panel | Complete
 - **Day cell visual states (UI placeholders first)**
-  - Answered: mood color fill
+  - Answered: mood color fill | Complete
   - Missed & locked: gray
   - Future day: neutral/white
 - **Interaction**
@@ -86,8 +86,8 @@
   - Optional note (plain text, max 500 words)
 - **Constraints**
   - Exactly one mood selected
-  - Once saved, mood cannot be changed
-  - CHANGED: Provide an explicit in-notice "here" affordance that reverts (deletes) today’s saved answer if it was a mistake
+  - Once saved, mood cannot be changed | Complete
+  - CHANGED: Provide an explicit in-notice "here" affordance that reverts (deletes) today’s saved answer if it was a mistake | Complete
  
 ### 3.2 Local storage
 - Choose persistence mechanism (e.g., Core Data / file / SQLite)
@@ -156,11 +156,11 @@
   - Optional note
 - Ensure export works offline and does not require external APIs
 
-CHANGED: Provide export actions for CSV and JSON from the Calendar screen.
+CHANGED: Provide export actions for CSV and JSON from the Calendar screen. | Complete
 
-CHANGED: Export uses the system file exporter to save/share files reliably.
+CHANGED: Export uses the system file exporter to save/share files reliably. | Complete
 
-- **Status**: Complete
+- **Status**: In Progress
  
 ---
  
