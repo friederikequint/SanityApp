@@ -77,11 +77,14 @@
 - **Entry fields**
   - Day identifier (date in device timezone)
   - Mood (1–5)
+  - CHANGED: Stress (0–10) question: “How stressed did you feel today? (0–10)” (slider)
   - Created timestamp (date + time)
   - Optional note (plain text, max 500 words)
 - **Constraints**
   - Exactly one mood selected
+  - CHANGED: Exactly one stress value selected (0–10)
   - Once saved, mood cannot be changed | Complete
+  - CHANGED: Once saved, stress cannot be changed
   - CHANGED: Provide an explicit in-notice "here" affordance that reverts (deletes) today’s saved answer if it was a mistake | Complete
  
 ### 3.2 Local storage
@@ -146,6 +149,7 @@
 - Export includes:
   - Date
   - Mood label/value
+  - CHANGED: Stress value (0–10)
   - Timestamp
   - Optional note
 - Ensure export works offline and does not require external APIs
@@ -172,7 +176,6 @@ CHANGED: Export uses the system file exporter to save/share files reliably. | Co
   - 18:00 → enabled
   - 23:59 → still enabled
   - 00:00 → locked/missed behavior
-- Test 48-hour grace boundary
 - Test timezone travel scenario (simulate timezone change)
  
 ### 8.3 Data integrity
