@@ -29,14 +29,24 @@ The project is intentionally kept simple so it can be easily forked, modified, a
 --- 
 ## Getting Started
 
-1. Fork this repository on GitHub.
-2. Clone your fork locally:
+You can run or explore SanityApp in just a few steps.
 
-```bash
-git clone https://github.com/<your-username>/SanityApp.git
-cd SanityApp
-Open SanityApp.xcodeproj in Xcode.
-Select an iOS simulator or a connected device.
-Press Run.
+### Option 1: Open and run the app in Xcode (recommended)
+
+1. In this repository, click the **Code** button and download the project  
+   *(or fork and clone it if you plan to modify it)*.
+2. Open the file `SanityApp.xcodeproj` in **Xcode**.
+3. Select an iOS simulator or a connected iPhone.
+4. Press **Run** to start the app.
+
+### Option 2: Open the project in another editor (e.g. Windsurf)
+
+If you want to explore or edit the code without running the app:
+
+1. Download or clone this repository.
+2. Open the project folder in **Windsurf** (or any other code editor).
+3. Browse and modify the Swift files as needed.
+
+> Note: To build and run the app, Xcode is still required.
 
 
