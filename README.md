@@ -25,6 +25,8 @@ The project is intentionally kept simple so it can be easily forked, modified, a
 - Local data storage for mood entries  
 - Modular project structure for easy customization  
 - Unit tests and UI tests included
+- Only allows mood entries between 6:00 p.m. and 11:59 p.m. (time zone is set automatically, but can be overridden in the settings)
+- Daily reminders can be activated in the settings
 
 --- 
 ## Getting Started
